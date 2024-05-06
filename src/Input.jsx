@@ -49,7 +49,7 @@ function Input() {
         fatigue
     };
     
-      const response = await axios.post(`http://localhost:5000/predict/${ddata}`, JSON.stringify(ddata), {
+      const response = await axios.post(`https://mental-backend.onrender.com/predict/${ddata}`, JSON.stringify(ddata), {
         headers: {
           'Content-Type': 'application/json'
         }
