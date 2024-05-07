@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.alfa-slab-one {
+
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .galada-regular {
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    background: none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+  
+  }
+  /* Horizontal scroll bar */
+  ::-webkit-scrollbar {
+    height: 1px; /* Set the height of the horizontal scroll bar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Set the background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000000; /* Set the color of the thumb/handle */
+  }
+  
+  /* Vertical scroll bar */
+  ::-webkit-scrollbar-vertical {
+    width: 10px; /* Set the width of the vertical scroll bar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-vertical::part(track) {
+    background: transparent; /* Set the background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-vertical::part(thumb) {
+    background: #000000; /* Set the color of the thumb/handle */
+  }
+
+  .input{
+    font-size: 24px;
+
+  }
+  .satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
