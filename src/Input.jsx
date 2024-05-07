@@ -230,9 +230,11 @@ function Input() {
       )}
       {showresult && (
         <div className="flex flex-col items-center justify-center w-full text-center">
-          <div className="uppercase text-6xl text-black alfa-slab-one">Result</div>
-          <div className="text-black text-4xl poetsen-one-regular">
-            Based on the provided information, the model predicts that the individual <br /> {result == 0 ? 'DOES NOT IDENTIFIES' : 'IDENTIFIES'} as having a mental illness.
+          <div className="uppercase text-7xl text-black alfa-slab-one">Result</div>
+          <div className="text-black text-4xl poetsen-one-regular m-4">
+            Based on the provided information, the model predicts that the individual <br />
+            <span className='text-5xl text-[#927575]'> {result == 0 ? 'DOES NOT IDENTIFIES' : 'IDENTIFIES '}</span>
+             <br />as having a mental illness.
           </div>
         </div>
       )}
